@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <article>
+        <header>
+            <h1>Quiz Result</h1>
+        </header>
+        <section>
+            <div>
+                <p>You scored {{ score }} out of {{ total }} ({% widthratio score total 100 %}%)</p>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h4>Question Details</h4>
+            </div>
+            <div class="border border-3">
+                <ul class="list-group list-group-flush list-group-numbered">
+                    {% for result in results %}
+                        <li class="list-group-item font-monospace">
+
+                            <strong>Question:</strong> {{ result.question.question_text }}<br>
+
+                            <div class="border-top border-bottom">
+                                <strong>Your Answer:</strong>
+
+
+                                {% if result.selected_answer %}
+                                    {{ result.selected_answer.answer_text }}
+                                    {% if result.selected_answer.is_correct %}
+                                        <span style="color: green;">(Correct)<i class="fa-solid fa-check"></i></span>
+                                    {% else %}
+                                        <span style="color: red;">(Incorrect)<i class="fa-solid fa-xmark"></i></span>
+                                    {% endif %}
+                                {% else %}
+                                    <span style="color: orange;">(No answer selected)<i
+                                            class="fa-solid fa-question"></i></span>
+                                {% endif %}<br>
+                            </div>
+
+                            <div class="border-top border-bottom bg-success-subtle">
+                                <strong>Correct Answer:</strong> {{ result.correct_answer.answer_text }}<br>
+                            </div>
+
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div class="p-2">
+                <a class="btn btn-primary" href="{% url 'hub:quiz_list' %}">Back to Quizzes</a>
+                <a class="btn btn-secondary" href="{% url 'hub:quiz_results_list' quiz.id %}">Quiz Results</a>
+                <a class="btn btn-info" href="{% url 'hub:quiz_results_list' quiz.id %}">Related results</a>
+            </div>
+        </section>
+    </article>
+{% endblock %}
+

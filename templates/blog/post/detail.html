@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <article>
+        <header>
+            <h3>{{ post.title }}</h3>
+            <small>published {{ post.publish }} by {{ post.author }}</small>
+        </header>
+        <section>
+            <p>{{ post.body|linebreaks }}</p>
+        </section>
+        <section>
+            {% with comments.count as total_comments %}
+                <h3>{{ total_comments }} comment{{ total_comments|pluralize }}</h3>
+            {% endwith %}
+        </section>
+        <section>
+            {% for comment in comments %}
+                <div id="comment-list">
+                    <!-- Display Comments -->
+                    {% for comment in post.comments.all %}
+                        <div class="mb-4 p-3 border rounded bg-light">
+                            <h5 class="mt-0">{{ comment.name }}</h5>
+                            <p>{{ comment.body }}</p>
+                            <small class="text-muted">Posted on {{ comment.created_at|date:"F j, Y" }}</small>
+                        </div>
+                    {% endfor %}
+
+                </div>
+            {% empty %}
+                <p>No comments</p>
+            {% endfor %}
+            {% include 'blog/post/comment_form.html' %}
+        </section>
+    </article>
+{% endblock %}

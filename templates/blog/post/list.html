@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <article>
+        <header>
+            <h2>Blog</h2>
+            <span>Go lower</span>
+        </header>
+        <section>
+            <div class="row justify-content-center">
+                {% for p in posts %}
+                    <div class="card w-75 m-3">
+                        <div class="card-body">
+                            <h4 class="card-title"><a href="{{ p.get_absolute_url }}">{{ p.title }}</a></h4>
+                            <h5 class="card-subtitle"><i class="fa-solid fa-calendar-days"></i> {{ p.publish }}
+                                by {{ p.author }}</h5>
+                            <p class="card-text text-break">{{ p.body|truncatewords:20|linebreaks|wordwrap:2 }}</p>
+                            <i class="fa-solid fa-comment"></i>
+                            <small>Comments: {{ p.comment_count }}</small>
+                            <a href="{% url 'hub:post_share' p.id %}">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                {% endfor %}
+                {% include "pagination.html" with page=page_obj %}
+            </div>
+        </section>
+    </article>
+{% endblock %}

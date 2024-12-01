@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+	{% if comment %}
+		<div class="card">
+            <div class="card-body">
+                <h1>Your comment has been noted</h1>
+            </div>
+        </div>
+	{% else %}
+		{% include 'blog/post/comment_form.html' %}
+	{% endif %} 
+{% endblock %}

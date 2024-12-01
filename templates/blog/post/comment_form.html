@@ -1,0 +1,13 @@
+{% load crispy_forms_filters %}
+{% block content %}
+    <div class="card">
+        <div class="card-body">
+            <h1 class="card-title">Comment</h1>
+            <form action="{% url 'hub:post_comment' post.id %}" method="POST">
+                {{ form|crispy }}
+                {% csrf_token %}
+                <input class="btn btn-primary" type="submit" value="Submit"/>
+            </form>
+        </div>
+    </div>
+{% endblock %}

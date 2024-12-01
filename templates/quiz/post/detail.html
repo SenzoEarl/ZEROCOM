@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% load crispy_forms_filters %}
+
+{% block content %}
+    <article>
+        <header>
+            <h3>{{ quiz.title }}</h3>
+            <small>published {{ quiz.created_at }} by {{ quiz.author }}</small>
+        </header>
+        <section>
+            <p>{{ quiz.description|linebreaks|truncatewords:50 }}</p>
+        </section>
+        <section>
+            
+            <form method="post" action="{% url 'hub:quiz_submit' quiz.id %}">
+                {% csrf_token %}
+                {% for question in quiz.questions.all %}
+                    <fieldset class="border border-secondary rounded p-3 mb-4 bg-light">
+                        <legend>{{ question.question_text|title }}</legend>
+
+                        {% for answer in question.answers.all %}
+                            <div class="input-group mb-1">
+                                <div class="input-group-text">
+                                    <input class="form-check-input mt-0" type="radio" id="{{ question.id }}"
+                                           name="{{ question.id }}"
+                                           value="{{ answer.id }}">
+                                </div>
+                                <input type="text" class="form-control" aria-label="{{ question.text }}"
+                                       value="{{ answer.answer_text|upper }}" readonly>
+                            </div>
+                        {% endfor %}
+
+                    </fieldset>
+                {% endfor %}
+                <button class="btn btn-primary" type="submit">Submit Quiz</button>
+            </form>
+        </section>
+    </article>
+{% endblock %}
