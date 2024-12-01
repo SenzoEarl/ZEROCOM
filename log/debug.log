@@ -1,0 +1,695 @@
+Watching for file changes with StatReloader
+Waiting for apps ready_event.
+Apps ready_event triggered. Sending autoreload_started signal.
+Watching dir C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates with glob **/*.
+Watching dir C:\workspace\CuriosityHub\templates with glob **/*.
+Watching dir C:\workspace\CuriosityHub\locale with glob **/*.mo.
+Watching dir C:\workspace\CuriosityHub\main\locale with glob **/*.mo.
+Watching dir C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_forms\locale with glob **/*.mo.
+Watching dir C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\locale with glob **/*.mo.
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+(0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_forms\exceptions.py first seen with mtime 1730870060.1090527
+File C:\Program Files\Python312\Lib\inspect.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\http\multipartparser.py first seen with mtime 1730804916.3667448
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\sqlparse\keywords.py first seen with mtime 1730804903.3915536
+File C:\workspace\CuriosityHub\CuriosityHub\__init__.py first seen with mtime 1730804948.4552207
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\messages\constants.py first seen with mtime 1730804912.3630285
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\messages\storage\base.py first seen with mtime 1730804912.3814113
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\middleware\cache.py first seen with mtime 1730804916.379908
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\utils\decorators.py first seen with mtime 1730804916.5806084
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_forms\helper.py first seen with mtime 1730870060.1100526
+File C:\Program Files\Python312\Lib\lib2to3\pgen2\__init__.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\forms\models.py first seen with mtime 1730804916.1115184
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\views\generic\detail.py first seen with mtime 1730804916.7151153
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\asgiref\local.py first seen with mtime 1730804904.0875082
+File C:\Program Files\Python312\Lib\email\headerregistry.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\asyncio\format_helpers.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\handlers\asgi.py first seen with mtime 1730804915.5831065
+File C:\Program Files\Python312\Lib\ctypes\wintypes.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\http\cookies.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\shortcuts.py first seen with mtime 1730804904.5152662
+File C:\Program Files\Python312\Lib\importlib\__init__.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\sqlparse\engine\statement_splitter.py first seen with mtime 1730804903.4142754
+File C:\workspace\CuriosityHub\CuriosityHub\settings.py first seen with mtime 1731517108.22038
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\utils\lorem_ipsum.py first seen with mtime 1730804916.627427
+File C:\Program Files\Python312\Lib\ipaddress.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\migrations\operations\special.py first seen with mtime 1730804915.9638858
+File C:\Program Files\Python312\Lib\json\encoder.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\DLLs\_ctypes.pyd first seen with mtime 1725647528.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\middleware\csrf.py first seen with mtime 1730804916.3892126
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\messages\storage\__init__.py first seen with mtime 1730804912.3788168
+File C:\Program Files\Python312\Lib\asyncio\windows_utils.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\apps\__init__.py first seen with mtime 1730804904.5171683
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\mail\__init__.py first seen with mtime 1730804915.594574
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\files\storage\filesystem.py first seen with mtime 1730804915.568311
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\admin\views\__init__.py first seen with mtime 1730804907.5208907
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\files\storage\base.py first seen with mtime 1730804915.5667045
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\contenttypes\models.py first seen with mtime 1730804909.0759506
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\utils\cache.py first seen with mtime 1730804916.554378
+File C:\Program Files\Python312\Lib\urllib\response.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\messages\api.py first seen with mtime 1730804912.3583512
+File C:\Program Files\Python312\Lib\pathlib.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\templatetags\__init__.py first seen with mtime 1730804916.4803104
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\models\sql\subqueries.py first seen with mtime 1730804916.0806248
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\decouple.py first seen with mtime 1731007904.6779206
+File C:\Program Files\Python312\Lib\asyncio\threads.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\http\cookie.py first seen with mtime 1730804916.3637085
+File C:\Program Files\Python312\Lib\logging\config.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\views\static.py first seen with mtime 1730804916.6826718
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\utils\regex_helper.py first seen with mtime 1730804916.6324227
+File C:\Program Files\Python312\Lib\numbers.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\locale.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\zoneinfo\_tzpath.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\serializers\json.py first seen with mtime 1730804915.7192338
+File C:\Program Files\Python312\Lib\sqlite3\dbapi2.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\migrations\__init__.py first seen with mtime 1730804915.9150388
+File C:\Program Files\Python312\Lib\argparse.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\checks\security\__init__.py first seen with mtime 1730804915.5253143
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\models\aggregates.py first seen with mtime 1730804915.9688513
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\__init__.py first seen with mtime 1730804915.4363546
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\admin\apps.py first seen with mtime 1730804905.7074761
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\checks\templates.py first seen with mtime 1730804915.513177
+File C:\Program Files\Python312\Lib\_compression.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\auth\views.py first seen with mtime 1730804908.3159404
+File C:\workspace\CuriosityHub\main\forms.py first seen with mtime 1731295789.538736
+File C:\Program Files\Python312\Lib\mimetypes.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\backends\signals.py first seen with mtime 1730804915.7576363
+File C:\Program Files\Python312\DLLs\select.pyd first seen with mtime 1725647528.0
+File C:\Program Files\Python312\Lib\email\encoders.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\asyncio\streams.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\models\fields\mixins.py first seen with mtime 1730804916.0277324
+File C:\Program Files\Python312\Lib\asyncio\transports.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\contenttypes\checks.py first seen with mtime 1730804909.06741
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\views\debug.py first seen with mtime 1730804916.6744375
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\sessions\middleware.py first seen with mtime 1730804913.8547783
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\models\manager.py first seen with mtime 1730804915.994886
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\views\generic\edit.py first seen with mtime 1730804916.7166972
+File C:\Program Files\Python312\Lib\email\_header_value_parser.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\multiprocessing\context.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\admin\helpers.py first seen with mtime 1730804905.7262068
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_forms\layout.py first seen with mtime 1730870060.1110537
+File C:\Program Files\Python312\Lib\collections\abc.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\sessions\__init__.py first seen with mtime 1730804913.8406143
+File C:\Program Files\Python312\Lib\bisect.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\admin\templatetags\admin_modify.py first seen with mtime 1730804907.511458
+File C:\Program Files\Python312\Lib\asyncio\trsock.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\graphlib.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\cache\backends\__init__.py first seen with mtime 1730804915.4680982
+File C:\Program Files\Python312\Lib\http\__init__.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\json\scanner.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\files\storage\__init__.py first seen with mtime 1730804915.564522
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py first seen with mtime 1730804907.5065155
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\models\indexes.py first seen with mtime 1730804915.9881406
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\auth\decorators.py first seen with mtime 1730804908.2850516
+File C:\Program Files\Python312\DLLs\_wmi.pyd first seen with mtime 1725647528.0
+File C:\Program Files\Python312\Lib\asyncio\timeouts.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\models\functions\comparison.py first seen with mtime 1730804916.0463526
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\utils\log.py first seen with mtime 1730804916.625223
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\signing.py first seen with mtime 1730804915.4521935
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\auth\password_validation.py first seen with mtime 1730804908.3010952
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\sites\__init__.py first seen with mtime 1730804914.647591
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\files\uploadhandler.py first seen with mtime 1730804915.5599759
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\utils\timezone.py first seen with mtime 1730804916.6482046
+File C:\Program Files\Python312\Lib\xml\etree\__init__.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\linecache.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\asyncio\windows_events.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\mail\message.py first seen with mtime 1730804915.5975914
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\template\loaders\app_directories.py first seen with mtime 1730804916.468411
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\sessions\backends\__init__.py first seen with mtime 1730804913.8643918
+File C:\Program Files\Python312\Lib\email\mime\multipart.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\management\__init__.py first seen with mtime 1730804915.6224725
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\admin\templatetags\log.py first seen with mtime 1730804907.5181775
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\backends\base\features.py first seen with mtime 1730804915.7710187
+File C:\Program Files\Python312\Lib\email\charset.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\messages\apps.py first seen with mtime 1730804912.3607924
+File C:\workspace\CuriosityHub\main\apps.py first seen with mtime 1730804951.8811505
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\utils\duration.py first seen with mtime 1730804916.5861094
+File C:\Program Files\Python312\Lib\glob.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\management\base.py first seen with mtime 1730804915.626386
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\urls\base.py first seen with mtime 1730804916.5236976
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\migrations\exceptions.py first seen with mtime 1730804915.9198153
+File C:\Program Files\Python312\Lib\wsgiref\simple_server.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\_weakrefset.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\templatetags\l10n.py first seen with mtime 1730804916.489817
+File C:\Program Files\Python312\Lib\email\mime\__init__.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\dataclasses.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\sessions\base_session.py first seen with mtime 1730804913.8487296
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\utils\ipv6.py first seen with mtime 1730804916.6161034
+File C:\Program Files\Python312\Lib\asyncio\base_events.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\utils\dateformat.py first seen with mtime 1730804916.5664127
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\auth\apps.py first seen with mtime 1730804908.2707894
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\backends\base\client.py first seen with mtime 1730804915.7665424
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\http\request.py first seen with mtime 1730804916.370189
+File C:\Program Files\Python312\Lib\base64.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\concurrent\futures\thread.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\admin\widgets.py first seen with mtime 1730804905.7424345
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\serializers\python.py first seen with mtime 1730804915.725439
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\utils\numberformat.py first seen with mtime 1730804916.6304219
+File C:\Program Files\Python312\Lib\random.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\template\response.py first seen with mtime 1730804916.436626
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\files\locks.py first seen with mtime 1730804915.547501
+File C:\Program Files\Python312\Lib\contextlib.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\auth\admin.py first seen with mtime 1730804908.268787
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\http\response.py first seen with mtime 1730804916.3748448
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\middleware\__init__.py first seen with mtime 1730804916.3763578
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\template\loaders\cached.py first seen with mtime 1730804916.474652
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\auth\middleware.py first seen with mtime 1730804908.2940047
+File C:\Program Files\Python312\Lib\email\quoprimime.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\contenttypes\forms.py first seen with mtime 1730804909.0716991
+File C:\Program Files\Python312\Lib\platform.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\selectors.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\migrations\operations\__init__.py first seen with mtime 1730804915.9540017
+File C:\Program Files\Python312\Lib\http\server.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\views\__init__.py first seen with mtime 1730804916.667999
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\mail\utils.py first seen with mtime 1730804915.5995913
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\models\constants.py first seen with mtime 1730804915.975036
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\template\backends\__init__.py first seen with mtime 1730804916.4467554
+File C:\workspace\CuriosityHub\manage.py first seen with mtime 1730804948.4209983
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\migrations\migration.py first seen with mtime 1730804915.931797
+File C:\Program Files\Python312\Lib\contextvars.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\asyncio\futures.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\template\loaders\filesystem.py first seen with mtime 1730804916.477188
+File C:\Program Files\Python312\Lib\email\mime\nonmultipart.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\utils\timesince.py first seen with mtime 1730804916.6454673
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_forms\base.py first seen with mtime 1730870060.1070573
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\staticfiles\management\commands\__init__.py first seen with mtime 1730804915.4162867
+File C:\Program Files\Python312\Lib\string.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\templatetags\tz.py first seen with mtime 1730804916.495357
+File C:\Program Files\Python312\Lib\_compat_pickle.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\json\decoder.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\shlex.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\utils\translation\reloader.py first seen with mtime 1730804916.6599035
+File C:\Program Files\Python312\Lib\asyncio\queues.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\asyncio\base_tasks.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\models\fields\__init__.py first seen with mtime 1730804916.0149708
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\admin\sites.py first seen with mtime 1730804905.7339327
+File C:\Program Files\Python312\Lib\re\_compiler.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\asyncio\constants.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\bz2.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\sites\requests.py first seen with mtime 1730804914.6720915
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\management\commands\runserver.py first seen with mtime 1730804915.6815102
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\models\sql\where.py first seen with mtime 1730804916.0816448
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\template\library.py first seen with mtime 1730804916.4310646
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\urls\conf.py first seen with mtime 1730804916.5258183
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\files\storage\handler.py first seen with mtime 1730804915.57133
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\migrations\operations\models.py first seen with mtime 1730804915.9623103
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\management\color.py first seen with mtime 1730804915.6284475
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\handlers\base.py first seen with mtime 1730804915.5856862
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\views\generic\dates.py first seen with mtime 1730804916.712577
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\contenttypes\fields.py first seen with mtime 1730804909.0690866
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\models\fields\proxy.py first seen with mtime 1730804916.0290744
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\dispatch\dispatcher.py first seen with mtime 1730804916.0868626
+File C:\Program Files\Python312\Lib\tempfile.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\zoneinfo\__init__.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\sqlparse\engine\__init__.py first seen with mtime 1730804903.402201
+File C:\Program Files\Python312\Lib\decimal.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\auth\backends.py first seen with mtime 1730804908.2738817
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\checks\files.py first seen with mtime 1730804915.501016
+File C:\Program Files\Python312\Lib\dis.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\asyncio\locks.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\email\contentmanager.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\apps\config.py first seen with mtime 1730804904.5188196
+File C:\Program Files\Python312\Lib\xml\__init__.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\backends\sqlite3\schema.py first seen with mtime 1730804915.9119678
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\models\fields\generated.py first seen with mtime 1730804916.01898
+File C:\workspace\CuriosityHub\main\admin.py first seen with mtime 1730872892.0137138
+File C:\Program Files\Python312\Lib\logging\handlers.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\DLLs\_decimal.pyd first seen with mtime 1725647528.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\management\commands\__init__.py first seen with mtime 1730804915.6362498
+File C:\Program Files\Python312\Lib\lib2to3\__init__.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\staticfiles\checks.py first seen with mtime 1730804915.388191
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\middleware\clickjacking.py first seen with mtime 1730804916.3829281
+File C:\Program Files\Python312\Lib\encodings\utf_8.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\admin\exceptions.py first seen with mtime 1730804905.7180395
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\files\images.py first seen with mtime 1730804915.5424333
+File C:\Program Files\Python312\Lib\multiprocessing\process.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\pkgutil.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\pickle.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\email\mime\message.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\files\utils.py first seen with mtime 1730804915.5620098
+File C:\Program Files\Python312\Lib\asyncio\sslproto.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\files\move.py first seen with mtime 1730804915.5498793
+File C:\Program Files\Python312\Lib\typing.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\models\functions\__init__.py first seen with mtime 1730804916.0442524
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\urls\exceptions.py first seen with mtime 1730804916.530652
+File C:\Program Files\Python312\Lib\lib2to3\fixer_base.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\lib2to3\pgen2\literals.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\sqlparse\tokens.py first seen with mtime 1730804903.397643
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\utils\tree.py first seen with mtime 1730804916.6497102
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\sqlparse\__init__.py first seen with mtime 1730804903.380095
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\sqlparse\utils.py first seen with mtime 1730804903.400142
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\handlers\__init__.py first seen with mtime 1730804915.5811067
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\utils\dateparse.py first seen with mtime 1730804916.5685985
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\backends\sqlite3\_functions.py first seen with mtime 1730804915.894394
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\middleware\common.py first seen with mtime 1730804916.3844452
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\auth\checks.py first seen with mtime 1730804908.2789
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\sqlparse\filters\right_margin.py first seen with mtime 1730804903.4308372
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\template\loader_tags.py first seen with mtime 1730804916.434602
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\__init__.py first seen with mtime 1730804915.745808
+File C:\Program Files\Python312\Lib\asyncio\proactor_events.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\contenttypes\views.py first seen with mtime 1730804909.0811534
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\checks\translation.py first seen with mtime 1730804915.5147285
+File C:\Program Files\Python312\Lib\email\feedparser.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\utils\module_loading.py first seen with mtime 1730804916.6294234
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\sqlparse\formatter.py first seen with mtime 1730804903.3893173
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\utils\safestring.py first seen with mtime 1730804916.6349633
+File C:\Program Files\Python312\Lib\reprlib.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\asyncio\protocols.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\files\temp.py first seen with mtime 1730804915.5531538
+File C:\Program Files\Python312\Lib\types.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\admin\options.py first seen with mtime 1730804905.7319133
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\staticfiles\__init__.py first seen with mtime 1730804915.3825896
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\admin\filters.py first seen with mtime 1730804905.7200663
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\handlers\wsgi.py first seen with mtime 1730804915.5920632
+File C:\Program Files\Python312\Lib\socket.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\lib2to3\pgen2\grammar.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\models\fields\related.py first seen with mtime 1730804916.032405
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\views\generic\__init__.py first seen with mtime 1730804916.7089236
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\admin\templatetags\__init__.py first seen with mtime 1730804907.5028398
+File C:\Program Files\Python312\Lib\signal.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\lib2to3\fixes\fix_input.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\utils\formats.py first seen with mtime 1730804916.597913
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\utils\inspect.py first seen with mtime 1730804916.6124115
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\views\i18n.py first seen with mtime 1730804916.6806731
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\models\fields\reverse_related.py first seen with mtime 1730804916.0396528
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\migrations\operations\base.py first seen with mtime 1730804915.9564865
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\models\functions\mixins.py first seen with mtime 1730804916.0537553
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\signals.py first seen with mtime 1730804915.4496598
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\models\fields\files.py first seen with mtime 1730804916.0169926
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\utils\autoreload.py first seen with mtime 1730804916.5507326
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\utils.py first seen with mtime 1730804915.7505517
+File C:\Program Files\Python312\DLLs\_bz2.pyd first seen with mtime 1725647528.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\auth\models.py first seen with mtime 1730804908.2990923
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\asgiref\__init__.py first seen with mtime 1730804904.0683339
+File C:\Program Files\Python312\Lib\xml\etree\ElementPath.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\lzma.py first seen with mtime 1725647474.0
+File C:\Users\senzo\AppData\Local\Programs\PyCharm Professional\plugins\python-ce\helpers\pycharm_display\datalore\__init__.py first seen with mtime 1726748356.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\files\base.py first seen with mtime 1730804915.5377483
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\validators.py first seen with mtime 1730804915.4557874
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\models\sql\__init__.py first seen with mtime 1730804916.0637987
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\models\base.py first seen with mtime 1730804915.9730039
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\asgiref\current_thread_executor.py first seen with mtime 1730804904.0830455
+File C:\Program Files\Python312\Lib\asyncio\log.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\models\fields\json.py first seen with mtime 1730804916.0242162
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\migrations\state.py first seen with mtime 1730804915.9456186
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\template\defaulttags.py first seen with mtime 1730804916.423993
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\views\csrf.py first seen with mtime 1730804916.6699984
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\template\loader.py first seen with mtime 1730804916.4330745
+File C:\Program Files\Python312\Lib\concurrent\futures\_base.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\forms\__init__.py first seen with mtime 1730804916.0936801
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_forms\__init__.py first seen with mtime 1730870060.1060572
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\admin\views\main.py first seen with mtime 1730804907.5304751
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\staticfiles\handlers.py first seen with mtime 1730804915.3948574
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\views\decorators\common.py first seen with mtime 1730804916.6930816
+File C:\Program Files\Python312\Lib\textwrap.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\template\utils.py first seen with mtime 1730804916.4452333
+File C:\Program Files\Python312\Lib\ctypes\__init__.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\migrations\utils.py first seen with mtime 1730804915.947754
+File C:\Program Files\Python312\Lib\wsgiref\headers.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\sessions\backends\base.py first seen with mtime 1730804913.8700235
+File C:\Program Files\Python312\Lib\subprocess.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\staticfiles\management\__init__.py first seen with mtime 1730804915.4151282
+File C:\Program Files\Python312\Lib\gettext.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\lib2to3\pgen2\token.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\DLLs\_asyncio.pyd first seen with mtime 1725647528.0
+File C:\Program Files\Python312\Lib\encodings\__init__.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\checks\async_checks.py first seen with mtime 1730804915.4949112
+File C:\Program Files\Python312\Lib\keyword.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\auth\management\__init__.py first seen with mtime 1730804909.0139656
+File C:\Program Files\Python312\Lib\email\__init__.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\socketserver.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\forms\boundfield.py first seen with mtime 1730804916.0962493
+File C:\Program Files\Python312\DLLs\_sqlite3.pyd first seen with mtime 1725647528.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\__init__.py first seen with mtime 1730804905.6996748
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\views\generic\list.py first seen with mtime 1730804916.7182207
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_forms\templatetags\crispy_forms_field.py first seen with mtime 1730870060.1150582
+File C:\Program Files\Python312\Lib\sqlite3\__init__.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\sqlparse\sql.py first seen with mtime 1730804903.3958707
+File C:\Program Files\Python312\Lib\wsgiref\handlers.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\xml\etree\ElementInclude.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\checks\model_checks.py first seen with mtime 1730804915.506291
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\checks\urls.py first seen with mtime 1730804915.517758
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\backends\base\operations.py first seen with mtime 1730804915.7797463
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\serializers\__init__.py first seen with mtime 1730804915.7150142
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\contenttypes\__init__.py first seen with mtime 1730804909.0617585
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\models\deletion.py first seen with mtime 1730804915.981752
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\forms\widgets.py first seen with mtime 1730804916.1205974
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\models\fields\related_lookups.py first seen with mtime 1730804916.0362012
+File C:\Program Files\Python312\Lib\email\base64mime.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\messages\middleware.py first seen with mtime 1730804912.3675907
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\templatetags\static.py first seen with mtime 1730804916.4928336
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\utils\_os.py first seen with mtime 1730804916.5421844
+File C:\Program Files\Python312\Lib\encodings\aliases.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\models\sql\constants.py first seen with mtime 1730804916.0694988
+File C:\Program Files\Python312\Lib\html\__init__.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\lib2to3\fixes\__init__.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\admin\utils.py first seen with mtime 1730804905.7385814
+File C:\Program Files\Python312\Lib\quopri.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\conf\__init__.py first seen with mtime 1730804904.5257277
+File C:\Program Files\Python312\Lib\email\message.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\DLLs\_zoneinfo.pyd first seen with mtime 1725647528.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\models\signals.py first seen with mtime 1730804916.0087433
+File C:\Program Files\Python312\Lib\shutil.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\DLLs\unicodedata.pyd first seen with mtime 1725647528.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\models\sql\datastructures.py first seen with mtime 1730804916.0730786
+File C:\Program Files\Python312\Lib\html\parser.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\checks\__init__.py first seen with mtime 1730804915.493901
+File C:\Program Files\Python312\Lib\email\iterators.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\pprint.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\admin\checks.py first seen with mtime 1730804905.7120242
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\checks\security\csrf.py first seen with mtime 1730804915.529537
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\models\query.py first seen with mtime 1730804916.0008004
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\conf\locale\__init__.py first seen with mtime 1730804904.5485446
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\templatetags\cache.py first seen with mtime 1730804916.4823096
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\utils\html.py first seen with mtime 1730804916.6061535
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\models\options.py first seen with mtime 1730804915.9981792
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\_virtualenv.py first seen with mtime 1730804865.9524474
+File C:\Program Files\Python312\Lib\asyncio\runners.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\views\decorators\http.py first seen with mtime 1730804916.7015264
+File C:\Program Files\Python312\DLLs\_elementtree.pyd first seen with mtime 1725647528.0
+File C:\Program Files\Python312\Lib\asyncio\coroutines.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\models\sql\query.py first seen with mtime 1730804916.0779016
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\apps\registry.py first seen with mtime 1730804904.521952
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\handlers\exception.py first seen with mtime 1730804915.589071
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\auth\base_user.py first seen with mtime 1730804908.2758374
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\checks\security\base.py first seen with mtime 1730804915.527809
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\utils\crypto.py first seen with mtime 1730804916.5616496
+File C:\Program Files\Python312\Lib\heapq.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\backends\base\__init__.py first seen with mtime 1730804915.762171
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\template\defaultfilters.py first seen with mtime 1730804916.4198642
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\sessions\apps.py first seen with mtime 1730804913.8461864
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\views\decorators\__init__.py first seen with mtime 1730804916.6836636
+File C:\Program Files\Python312\Lib\email\mime\text.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\nturl2path.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\template\context.py first seen with mtime 1730804916.4148962
+File C:\Program Files\Python312\Lib\fnmatch.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\auth\tokens.py first seen with mtime 1730804908.3061395
+File C:\Program Files\Python312\Lib\email\mime\base.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\models\functions\datetime.py first seen with mtime 1730804916.048526
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\servers\basehttp.py first seen with mtime 1730804915.7407947
+File C:\Program Files\Python312\Lib\email\utils.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\functools.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\transaction.py first seen with mtime 1730804915.7488778
+File C:\Program Files\Python312\Lib\enum.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\email\header.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\struct.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\staticfiles\utils.py first seen with mtime 1730804915.4075358
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\migrations\operations\fields.py first seen with mtime 1730804915.9592748
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\contenttypes\apps.py first seen with mtime 1730804909.0652938
+File C:\Program Files\Python312\Lib\statistics.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\zoneinfo\_common.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\paginator.py first seen with mtime 1730804915.447353
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\urls\converters.py first seen with mtime 1730804916.5294645
+File C:\Program Files\Python312\Lib\asyncio\selector_events.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\utils\encoding.py first seen with mtime 1730804916.589976
+File C:\Program Files\Python312\Lib\importlib\_abc.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\checks\messages.py first seen with mtime 1730804915.5030346
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\admin\templatetags\base.py first seen with mtime 1730804907.5171518
+File C:\Users\senzo\AppData\Local\Programs\PyCharm Professional\plugins\python-ce\helpers\pycharm_display\datalore\display\__init__.py first seen with mtime 1726748356.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\asgiref\sync.py first seen with mtime 1730804904.1086533
+File C:\Program Files\Python312\Lib\calendar.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\auth\validators.py first seen with mtime 1730804908.3124
+File C:\Program Files\Python312\Lib\copy.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\models\utils.py first seen with mtime 1730804916.0122838
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\admin\models.py first seen with mtime 1730804905.729211
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\admin\__init__.py first seen with mtime 1730804905.7016723
+File C:\Program Files\Python312\Lib\asyncio\taskgroups.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\main\views.py first seen with mtime 1731272856.377551
+File C:\Program Files\Python312\DLLs\_lzma.pyd first seen with mtime 1725647528.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\utils\http.py first seen with mtime 1730804916.608768
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\admin\views\autocomplete.py first seen with mtime 1730804907.52444
+File C:\Program Files\Python312\Lib\asyncio\base_futures.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\operator.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\__init__.py first seen with mtime 1730804904.5056045
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\exceptions.py first seen with mtime 1730804915.4437814
+File C:\Program Files\Python312\Lib\lib2to3\pygram.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\DLLs\_hashlib.pyd first seen with mtime 1725647528.0
+File C:\Program Files\Python312\Lib\email\parser.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\opcode.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\wsgi.py first seen with mtime 1730804915.4593935
+File C:\Program Files\Python312\Lib\concurrent\__init__.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\backends\base\schema.py first seen with mtime 1730804915.7827566
+File C:\Program Files\Python312\Lib\sysconfig.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\forms\renderers.py first seen with mtime 1730804916.1150687
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\utils\deconstruct.py first seen with mtime 1730804916.5772758
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\utils\translation\__init__.py first seen with mtime 1730804916.6573777
+File C:\Program Files\Python312\Lib\http\client.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\threading.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\weakref.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_forms\templatetags\__init__.py first seen with mtime 1730870060.1140525
+File C:\Program Files\Python312\Lib\encodings\utf_8_sig.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\ssl.py first seen with mtime 1725647474.0
+File C:\Users\senzo\AppData\Local\Programs\PyCharm Professional\plugins\python-ce\helpers\pycharm_display\datalore\display\display_.py first seen with mtime 1726748356.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\files\__init__.py first seen with mtime 1730804915.534817
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_forms\utils.py first seen with mtime 1730870060.113054
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\templatetags\i18n.py first seen with mtime 1730804916.4863946
+File C:\Program Files\Python312\Lib\_markupbase.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\auth\forms.py first seen with mtime 1730804908.2870817
+File C:\Program Files\Python312\Lib\hmac.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\checks\security\sessions.py first seen with mtime 1730804915.532332
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\template\exceptions.py first seen with mtime 1730804916.4288158
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\urls\__init__.py first seen with mtime 1730804916.5209486
+File C:\workspace\CuriosityHub\main\__init__.py first seen with mtime 1730804951.9140782
+File C:\Program Files\Python312\DLLs\_ssl.pyd first seen with mtime 1725647528.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\utils\deprecation.py first seen with mtime 1730804916.5839837
+File C:\Program Files\Python312\DLLs\_overlapped.pyd first seen with mtime 1725647528.0
+File C:\Program Files\Python312\Lib\lib2to3\fixer_util.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\re\__init__.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\utils\translation\trans_real.py first seen with mtime 1730804916.6660068
+File C:\Program Files\Python312\Lib\email\generator.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\lib2to3\pgen2\driver.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\urllib\error.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\email\_encoded_words.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\backends\utils.py first seen with mtime 1730804915.7601726
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\forms\formsets.py first seen with mtime 1730804916.104249
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\forms\utils.py first seen with mtime 1730804916.1177833
+File C:\Program Files\Python312\Lib\multiprocessing\__init__.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\backends\__init__.py first seen with mtime 1730804915.7525654
+File C:\Program Files\Python312\Lib\lib2to3\pgen2\pgen.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\middleware\security.py first seen with mtime 1730804916.4005697
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\views\decorators\debug.py first seen with mtime 1730804916.69839
+File C:\Program Files\Python312\Lib\gzip.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\configparser.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\sessions\exceptions.py first seen with mtime 1730804913.850727
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\utils\asyncio.py first seen with mtime 1730804916.5489705
+File C:\Program Files\Python312\Lib\lib2to3\patcomp.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\files\storage\memory.py first seen with mtime 1730804915.5745623
+File C:\Program Files\Python312\Lib\difflib.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\urls\utils.py first seen with mtime 1730804916.5356274
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\models\functions\text.py first seen with mtime 1730804916.057073
+File C:\Program Files\Python312\Lib\traceback.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\asyncio\__init__.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\messages\utils.py first seen with mtime 1730804912.3705897
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\models\expressions.py first seen with mtime 1730804915.9856057
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\urls\resolvers.py first seen with mtime 1730804916.534038
+File C:\Program Files\Python312\Lib\asyncio\mixins.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\admin\templatetags\admin_urls.py first seen with mtime 1730804907.5150156
+File C:\workspace\CuriosityHub\CuriosityHub\urls.py first seen with mtime 1730808370.8284793
+File C:\Program Files\Python312\Lib\datetime.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\sqlparse\filters\tokens.py first seen with mtime 1730804903.433936
+File C:\Program Files\Python312\DLLs\_uuid.pyd first seen with mtime 1725647528.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\sessions\models.py first seen with mtime 1730804913.8578615
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\backends\sqlite3\creation.py first seen with mtime 1730804915.8994164
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_forms\templatetags\crispy_forms_tags.py first seen with mtime 1730870060.1160524
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\models\fields\related_descriptors.py first seen with mtime 1730804916.0339584
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\backends\sqlite3\introspection.py first seen with mtime 1730804915.902417
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\files\storage\mixins.py first seen with mtime 1730804915.580091
+File C:\Program Files\Python312\Lib\wsgiref\util.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\models\query_utils.py first seen with mtime 1730804916.0043428
+File C:\Users\senzo\AppData\Local\Programs\PyCharm Professional\plugins\python-ce\helpers\pycharm_display\datalore\display\supported_data_type.py first seen with mtime 1726748356.0
+File C:\Program Files\Python312\Lib\warnings.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\sqlparse\cli.py first seen with mtime 1730804903.384058
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\checks\database.py first seen with mtime 1730804915.499205
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\middleware\http.py first seen with mtime 1730804916.396855
+File C:\Program Files\Python312\Lib\urllib\parse.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\staticfiles\management\commands\runserver.py first seen with mtime 1730804915.4258769
+File C:\Program Files\Python312\Lib\asyncio\staggered.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\backends\base\creation.py first seen with mtime 1730804915.7685592
+File C:\Program Files\Python312\DLLs\_queue.pyd first seen with mtime 1725647528.0
+File C:\Program Files\Python312\Lib\asyncio\base_subprocess.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\auth\hashers.py first seen with mtime 1730804908.2914758
+File C:\Program Files\Python312\Lib\lib2to3\pgen2\tokenize.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\dispatch\__init__.py first seen with mtime 1730804916.0847373
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\template\smartif.py first seen with mtime 1730804916.4415963
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\contenttypes\admin.py first seen with mtime 1730804909.064282
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\files\uploadedfile.py first seen with mtime 1730804915.5578096
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\cache\backends\base.py first seen with mtime 1730804915.4717877
+File C:\Program Files\Python312\Lib\asyncio\tasks.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\wsgiref\__init__.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\concurrent\futures\__init__.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\logging\__init__.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\multiprocessing\reduction.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\json\__init__.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\checks\compatibility\__init__.py first seen with mtime 1730804915.5192702
+File C:\Program Files\Python312\Lib\fractions.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\cache\utils.py first seen with mtime 1730804915.4660642
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\conf\global_settings.py first seen with mtime 1730804904.5282128
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\messages\__init__.py first seen with mtime 1730804912.3549614
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py first seen with mtime 1730804915.8964155
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\http\__init__.py first seen with mtime 1730804916.3611314
+File C:\Program Files\Python312\Lib\xml\etree\ElementTree.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\copyreg.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\utils\termcolors.py first seen with mtime 1730804916.6368117
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\backends\sqlite3\client.py first seen with mtime 1730804915.8974178
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\cache\backends\filebased.py first seen with mtime 1730804915.482361
+File C:\Program Files\Python312\Lib\collections\__init__.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\utils\__init__.py first seen with mtime 1730804916.5376298
+File C:\Program Files\Python312\Lib\email\errors.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_forms\layout_slice.py first seen with mtime 1730870060.1120532
+File C:\Program Files\Python312\Lib\re\_constants.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\ctypes\_endian.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\views\decorators\cache.py first seen with mtime 1730804916.6861634
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\sqlparse\engine\filter_stack.py first seen with mtime 1730804903.4037173
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\utils\functional.py first seen with mtime 1730804916.5999155
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\views\generic\base.py first seen with mtime 1730804916.7115548
+File C:\Program Files\Python312\DLLs\_socket.pyd first seen with mtime 1725647528.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\utils\dates.py first seen with mtime 1730804916.5717046
+File C:\Program Files\Python312\Lib\email\policy.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\html\entities.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\ast.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\sites\shortcuts.py first seen with mtime 1730804914.6777966
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\staticfiles\views.py first seen with mtime 1730804915.4119837
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\template\__init__.py first seen with mtime 1730804916.404351
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\models\functions\window.py first seen with mtime 1730804916.0600603
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\template\autoreload.py first seen with mtime 1730804916.4073894
+File C:\Program Files\Python312\Lib\email\_parseaddr.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\DLLs\pyexpat.pyd first seen with mtime 1725647528.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\utils\choices.py first seen with mtime 1730804916.5574152
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\template\backends\base.py first seen with mtime 1730804916.449389
+File C:\Program Files\Python312\Lib\token.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\backends\ddl_references.py first seen with mtime 1730804915.7551904
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\backends\base\base.py first seen with mtime 1730804915.7646835
+File C:\Program Files\Python312\Lib\email\_policybase.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\utils\text.py first seen with mtime 1730804916.639351
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\sqlparse\filters\others.py first seen with mtime 1730804903.4202938
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\backends\base\validation.py first seen with mtime 1730804915.7842722
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\template\backends\django.py first seen with mtime 1730804916.4514196
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\template\loaders\base.py first seen with mtime 1730804916.4708278
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\checks\compatibility\django_4_0.py first seen with mtime 1730804915.5221634
+File C:\Program Files\Python312\Lib\uuid.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\auth\__init__.py first seen with mtime 1730804908.2667851
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\utils\connection.py first seen with mtime 1730804916.5594263
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\servers\__init__.py first seen with mtime 1730804915.736015
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\utils\datastructures.py first seen with mtime 1730804916.5650296
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\staticfiles\finders.py first seen with mtime 1730804915.3921888
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\template\loaders\__init__.py first seen with mtime 1730804916.465143
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\sqlparse\engine\grouping.py first seen with mtime 1730804903.411491
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\models\enums.py first seen with mtime 1730804915.9827495
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_forms\templatetags\crispy_forms_utils.py first seen with mtime 1730870060.1170533
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\sqlparse\filters\aligned_indent.py first seen with mtime 1730804903.4181435
+File C:\Program Files\Python312\Lib\lib2to3\pgen2\parse.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\re\_casefix.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\asyncio\subprocess.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\checks\registry.py first seen with mtime 1730804915.510721
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\sqlparse\filters\__init__.py first seen with mtime 1730804903.4170787
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\models\functions\math.py first seen with mtime 1730804916.0510542
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\admin\actions.py first seen with mtime 1730804905.7036686
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\backends\sqlite3\__init__.py first seen with mtime 1730804915.8928854
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\staticfiles\apps.py first seen with mtime 1730804915.3856406
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\models\constraints.py first seen with mtime 1730804915.9787517
+File C:\Program Files\Python312\Lib\urllib\__init__.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\models\lookups.py first seen with mtime 1730804915.991755
+File C:\Program Files\Python312\Lib\tokenize.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\secrets.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\sqlparse\exceptions.py first seen with mtime 1730804903.3865874
+File C:\Users\senzo\AppData\Local\Programs\PyCharm Professional\plugins\python-ce\helpers\pycharm_matplotlib_backend\sitecustomize.py first seen with mtime 1726748356.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\serializers\base.py first seen with mtime 1730804915.717715
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\models\__init__.py first seen with mtime 1730804915.9668508
+File C:\Program Files\Python312\Lib\asyncio\exceptions.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\backends\sqlite3\features.py first seen with mtime 1730804915.901423
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\forms\fields.py first seen with mtime 1730804916.0992804
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\cache\__init__.py first seen with mtime 1730804915.4636571
+File C:\Program Files\Python312\Lib\getpass.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\urllib\request.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\backends\sqlite3\operations.py first seen with mtime 1730804915.90796
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\contenttypes\management\__init__.py first seen with mtime 1730804909.7517464
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_forms\bootstrap.py first seen with mtime 1730870060.1080527
+File C:\Users\senzo\AppData\Local\Programs\PyCharm Professional\plugins\python-ce\helpers\pycharm_display\datalore\display\display_log.py first seen with mtime 1726748356.0
+File C:\workspace\CuriosityHub\main\models.py first seen with mtime 1730872974.159719
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\admin\decorators.py first seen with mtime 1730804905.7159472
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\db\backends\base\introspection.py first seen with mtime 1730804915.7767105
+File C:\Program Files\Python312\Lib\lib2to3\pytree.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\__future__.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\asyncio\events.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\hashlib.py first seen with mtime 1725647474.0
+File C:\Program Files\Python312\Lib\queue.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\sqlparse\filters\output.py first seen with mtime 1730804903.4238434
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_forms\templatetags\crispy_forms_filters.py first seen with mtime 1730870060.1160524
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\sqlparse\lexer.py first seen with mtime 1730804903.393999
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\sqlparse\filters\reindent.py first seen with mtime 1730804903.4275243
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\__init__.py first seen with mtime 1730870122.25795
+File C:\workspace\CuriosityHub\main\urls.py first seen with mtime 1731008765.06235
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\template\engine.py first seen with mtime 1730804916.427538
+File C:\Program Files\Python312\Lib\encodings\cp1252.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\template\base.py first seen with mtime 1730804916.412248
+File C:\Program Files\Python312\Lib\re\_parser.py first seen with mtime 1725647474.0
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\views\decorators\csrf.py first seen with mtime 1730804916.6963704
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\core\checks\caches.py first seen with mtime 1730804915.4972036
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\utils\version.py first seen with mtime 1730804916.6517992
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\contrib\auth\signals.py first seen with mtime 1730804908.3030949
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\forms\forms.py first seen with mtime 1730804916.1015623
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\django\utils\hashable.py first seen with mtime 1730804916.6019144
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5 first seen with mtime 1730870122.271396
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5\accordion-group.html first seen with mtime 1730870122.25995
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5\accordion.html first seen with mtime 1730870122.2609506
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5\betterform.html first seen with mtime 1730870122.2619476
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5\display_form.html first seen with mtime 1730870122.2629724
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5\errors.html first seen with mtime 1730870122.2639499
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5\errors_formset.html first seen with mtime 1730870122.26495
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5\field.html first seen with mtime 1730870122.2659514
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5\inputs.html first seen with mtime 1730870122.2669573
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5\layout first seen with mtime 1730870122.2933958
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5\table_inline_formset.html first seen with mtime 1730870122.2669573
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5\uni_form.html first seen with mtime 1730870122.2683952
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5\uni_formset.html first seen with mtime 1730870122.2693954
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5\whole_uni_form.html first seen with mtime 1730870122.2703948
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5\whole_uni_formset.html first seen with mtime 1730870122.271396
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5\layout\alert.html first seen with mtime 1730870122.2724338
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5\layout\attrs.html first seen with mtime 1730870122.2724338
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5\layout\baseinput.html first seen with mtime 1730870122.2733958
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5\layout\button.html first seen with mtime 1730870122.274395
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5\layout\buttonholder.html first seen with mtime 1730870122.2753973
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5\layout\checkboxselectmultiple_inline.html first seen with mtime 1730870122.2764125
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5\layout\column.html first seen with mtime 1730870122.2764125
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5\layout\div.html first seen with mtime 1730870122.2774217
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5\layout\fieldset.html first seen with mtime 1730870122.281398
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5\layout\field_errors.html first seen with mtime 1730870122.2784107
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5\layout\field_errors_block.html first seen with mtime 1730870122.279397
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5\layout\field_file.html first seen with mtime 1730870122.280421
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5\layout\field_with_buttons.html first seen with mtime 1730870122.280421
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5\layout\floating_field.html first seen with mtime 1730870122.2824008
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5\layout\formactions.html first seen with mtime 1730870122.2834232
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5\layout\help_text.html first seen with mtime 1730870122.2854
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5\layout\help_text_and_errors.html first seen with mtime 1730870122.2854
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5\layout\inline_field.html first seen with mtime 1730870122.2863982
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5\layout\modal.html first seen with mtime 1730870122.2873979
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5\layout\multifield.html first seen with mtime 1730870122.2883992
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5\layout\prepended_appended_text.html first seen with mtime 1730870122.2883992
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5\layout\radioselect_inline.html first seen with mtime 1730870122.2903984
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5\layout\radio_checkbox_select.html first seen with mtime 1730870122.2893937
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5\layout\row.html first seen with mtime 1730870122.291398
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5\layout\switch.html first seen with mtime 1730870122.291398
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5\layout\tab-link.html first seen with mtime 1730870122.292398
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5\layout\tab.html first seen with mtime 1730870122.2933958
+File C:\workspace\CuriosityHub\.venv\Lib\site-packages\crispy_bootstrap5\templates\bootstrap5\layout\uneditable_input.html first seen with mtime 1730870122.2933958
+File C:\workspace\CuriosityHub\templates\base.html first seen with mtime 1731302761.37139
+File C:\workspace\CuriosityHub\templates\blog first seen with mtime 1730810126.8936303
+File C:\workspace\CuriosityHub\templates\lottery first seen with mtime 1730874428.7104747
+File C:\workspace\CuriosityHub\templates\pagination.html first seen with mtime 1730828011.7085772
+File C:\workspace\CuriosityHub\templates\quiz first seen with mtime 1730819288.825976
+File C:\workspace\CuriosityHub\templates\blog\post first seen with mtime 1731261499.023914
+File C:\workspace\CuriosityHub\templates\lottery\list.html first seen with mtime 1730874428.7084887
+File C:\workspace\CuriosityHub\templates\quiz\post first seen with mtime 1731007636.3718164
+File C:\workspace\CuriosityHub\templates\blog\post\comment.html first seen with mtime 1730823747.8739252
+File C:\workspace\CuriosityHub\templates\blog\post\comment_form.html first seen with mtime 1730874532.1208413
+File C:\workspace\CuriosityHub\templates\blog\post\detail.html first seen with mtime 1730876577.4949882
+File C:\workspace\CuriosityHub\templates\blog\post\list.html first seen with mtime 1731011019.2860641
+File C:\workspace\CuriosityHub\templates\blog\post\share.html first seen with mtime 1731261499.0219264
+File C:\workspace\CuriosityHub\templates\quiz\post\detail.html first seen with mtime 1730992438.1062875
+File C:\workspace\CuriosityHub\templates\quiz\post\list.html first seen with mtime 1731004247.232665
+File C:\workspace\CuriosityHub\templates\quiz\post\quiz_result.html first seen with mtime 1731006483.5805647
+File C:\workspace\CuriosityHub\templates\quiz\post\quiz_results_list.html first seen with mtime 1731007636.370817
