@@ -2,12 +2,12 @@
 
 {% block content %}
     <article>
-        <header>
-            <h2>Blog</h2>
-            <span>Go lower</span>
-        </header>
+        {#        <header>#}
+        {#            <h2>Blog</h2>#}
+        {#            <span>Go lower</span>#}
+        {#        </header>#}
         <section>
-            <div class="row justify-content-center">
+            <div class="row d-flex justify-content-evenly">
                 {% for p in posts %}
                     <div class="card w-75 m-3">
                         <div class="card-body">
@@ -23,8 +23,8 @@
                         </div>
                     </div>
                 {% endfor %}
-                {% include "pagination.html" with page=page_obj %}
             </div>
+            {% include "pagination.html" with page=page_obj %}
         </section>
     </article>
 {% endblock %}

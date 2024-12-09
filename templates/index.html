@@ -1,57 +1,57 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <div class="d-flex justify-content-evenly">
-        {% for item in combined_list %}
-            {% if item.get_model_name == 'Post' %}
-                <div class="d-inline-flex">
-                    <div class="card m-3" style="width: 18rem;">
-                        <div class="card-body bg-light">
-                            <h5 class="card-title">
-                                <i class="fa-solid fa-blog"></i>
-                                <a href="{{ item.get_absolute_url }}">{{ item.title }}</a>
-                            </h5>
-                            <div class="card-subtitle">
+    <article>
+        <section>
+            <div class="row d-flex justify-content-evenly">
+                {% for item in combined_list %}
+                    {% if item.get_model_name == 'Post' %}
+                        <div class="card w-75 m-3">
+                            <div class="card-body bg-light">
+                                <h5 class="card-title">
+                                    <i class="fa-solid fa-blog"></i>
+                                    <a href="{{ item.get_absolute_url }}">{{ item.title }}</a>
+                                </h5>
+                                <div class="card-subtitle">
                                 <span>
                                     <i class="fa-solid fa-user"></i>
                                 {{ item.author }}
                                 </span><br>
-                                <span>
+                                    <span>
                                     <i class="fa-solid fa-calendar"></i>
                                     {{ item.created_at|date }}
                                 </span>
+                                </div>
+                                <p class="card-text">{{ item.body|truncatewords:30 }}
+                                </p>
                             </div>
-                            <p class="card-text">{{ item.body|truncatewords:30 }}
-                            </p>
                         </div>
-                    </div>
-                </div>
-            {% else %}
-                <div class="d-inline-flex">
-                    <div class="card m-3" style="width: 18rem;">
-                        <div class="card-body ">
-                            <h5 class="card-title">
-                                <i class="fa-solid fa-trophy"></i>
-                                <a href="{{ item.get_absolute_url }}" class="stretched-link">{{ item.title }}</a></h5>
-                            <div class="card-subtitle">
+                    {% else %}
+                        <div class="card w-75 m-3">
+                            <div class="card-body ">
+                                <h5 class="card-title">
+                                    <i class="fa-solid fa-trophy"></i>
+                                    <a href="{{ item.get_absolute_url }}" class="stretched-link">{{ item.title }}</a>
+                                </h5>
+                                <div class="card-subtitle">
                                 <span>
                                     <i class="fa-solid fa-user"></i>
                                 {{ item.author }}
                                 </span><br>
-                                <span>
+                                    <span>
                                     <i class="fa-solid fa-calendar"></i>
                                     {{ item.created_at|date }}
                                 </span>
+                                </div>
+                                <p class="card-text">{{ item.description }}
+                                </p>
                             </div>
-                            <p class="card-text">{{ item.description }}
-                            </p>
                         </div>
-                    </div>
-                </div>
-            {% endif %}
-        {% empty %}
-            <p>Empty Query</p>
-        {% endfor %}
-        
-    </div>
+                    {% endif %}
+                {% empty %}
+                    <p>Empty Query</p>
+                {% endfor %}
+            </div>
+        </section>
+    </article>
 {% endblock %}
