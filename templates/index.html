@@ -3,31 +3,34 @@
 {% block content %}
     <article>
         <section>
-            <div class="row d-flex justify-content-evenly">
+            <div class="row d-flex gx-2 justify-content-evenly">
                 {% for item in combined_list %}
                     {% if item.get_model_name == 'Post' %}
-                        <div class="card w-75 m-3">
+                        <div class="card w-75 p-3 m-2">
                             <div class="card-body bg-light">
-                                <h5 class="card-title">
+                                <h4 class="card-title">
                                     <i class="fa-solid fa-blog"></i>
-                                    <a href="{{ item.get_absolute_url }}">{{ item.title }}</a>
-                                </h5>
+                                    <a href="{{ item.get_absolute_url }}">
+                                        {{ item.title }}
+                                    </a>
+                                </h4>
                                 <div class="card-subtitle">
-                                <span>
-                                    <i class="fa-solid fa-user"></i>
-                                {{ item.author }}
-                                </span><br>
                                     <span>
-                                    <i class="fa-solid fa-calendar"></i>
-                                    {{ item.created_at|date }}
-                                </span>
+                                        <i class="fa-solid fa-user"></i>
+                                        {{ item.author }}
+                                    </span>
+                                    <br>
+                                    <span>
+                                        <i class="fa-solid fa-calendar"></i>
+                                        {{ item.created_at|date }}
+                                    </span>
                                 </div>
                                 <p class="card-text">{{ item.body|truncatewords:30 }}
                                 </p>
                             </div>
                         </div>
                     {% else %}
-                        <div class="card w-75 m-3">
+                        <div class="card w-75 p-3 m-2">
                             <div class="card-body ">
                                 <h5 class="card-title">
                                     <i class="fa-solid fa-trophy"></i>

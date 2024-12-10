@@ -2,24 +2,46 @@
 
 {% block content %}
     <article>
-        {#        <header>#}
-        {#            <h2>Blog</h2>#}
-        {#            <span>Go lower</span>#}
-        {#        </header>#}
         <section>
-            <div class="row d-flex justify-content-evenly">
+            <div class="row d-flex gx-2 justify-content-evenly">
                 {% for p in posts %}
-                    <div class="card w-75 m-3">
-                        <div class="card-body">
-                            <h4 class="card-title"><a href="{{ p.get_absolute_url }}">{{ p.title }}</a></h4>
-                            <h5 class="card-subtitle"><i class="fa-solid fa-calendar-days"></i> {{ p.publish }}
-                                by {{ p.author }}</h5>
-                            <p class="card-text text-break">{{ p.body|truncatewords:20|linebreaks|wordwrap:2 }}</p>
-                            <i class="fa-solid fa-comment"></i>
-                            <small>Comments: {{ p.comment_count }}</small>
-                            <a href="{% url 'hub:post_share' p.id %}">
-                                <i class="fa-solid fa-envelope"></i>
-                            </a>
+                    <div class="card w-75 p-3 m-2">
+                        <div class="card-body bg-light">
+                            <h4 class="card-title">
+                                <i class="fa-solid fa-blog"></i>
+                                <a href="{{ p.get_absolute_url }}">{{ p.title }}</a>
+                            </h4>
+                            <div class="card-subtitle">
+                                <span>
+                                   <i class="fa-solid fa-calendar-days"></i> 
+                                {{ p.publish|date }} 
+                                </span><br>
+                                <span>
+                                    <i class="fa-solid fa-user"></i>
+                                    {{ p.author }}
+                                </span>
+                            </div>
+                            <p class="card-text">{{ p.body|truncatewords:20 }}</p>
+                            
+                            <small class="icon-link">
+                                <i class="fa-solid fa-comment"></i>
+                                Comments: {{ p.comment_count }}
+                            </small>
+                            <div class="vr icon-link"></div>
+                            <small>
+                                <a class="icon-link" href="{% url 'hub:post_share' p.id %}">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    Email
+                                </a>
+                            </small>
+                            <div class="vr icon-link"></div>
+                            <small>
+                                <a class="icon-link" href="whatsapp://send?text={{ request.build_absolute_uri }}{{ p.get_absolute_url }}" data-action="share/whatsapp/share">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                    Whatsapp
+                                </a>
+                            </small>
+
                         </div>
                     </div>
                 {% endfor %}
