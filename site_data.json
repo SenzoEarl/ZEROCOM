@@ -1,0 +1,1607 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-11-05T11:41:53.140Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Lorem Ipsum by admin",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-11-05T11:42:43.449Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Lorem Ipsum 2 by admin",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-11-05T11:42:58.407Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Lorem Ipsum 2 by admin",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-11-05T16:08:05.796Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Comment by Tester on Lorem Ipsum by admin",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-11-05T17:39:11.810Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "A Quiz about Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quam augue, consequat nec leo at, dignissim gravida nisl. Maecenas rhoncus id massa vitae vestibulum. Duis vel dolor diam. ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-11-05T17:58:30.711Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "WHO?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-11-06T04:23:19.278Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "2",
+    "object_repr": "HOW",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-11-06T04:25:00.773Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "YOU Correct: True",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-11-06T04:25:13.108Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "me Correct: False",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-11-06T04:25:30.502Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "THis Correct: True",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-11-06T04:25:40.063Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "that Correct: False",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-11-06T05:04:01.954Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "A Quiz about Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quam augue, consequat nec leo at, dignissim gravida nisl. Maecenas rhoncus id massa vitae vestibulum. Duis vel dolor diam. ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}, {\"changed\": {\"name\": \"question\", \"object\": \"HOW?\", \"fields\": [\"Question text\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-11-06T06:01:59.587Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "If you see apple then your lucky number is 282927 & means Enter what it means",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2024-11-06T06:03:26.034Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "2",
+    "object_repr": "If you see BAnana then your lucky number is 11 & means Enter what it means",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2024-11-07T14:49:36.057Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "That Correct: False",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Answer text\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2024-11-07T14:49:42.721Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "This Correct: True",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Answer text\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2024-11-07T14:49:49.377Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Me Correct: False",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Answer text\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2024-11-07T14:49:55.816Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "You Correct: True",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Answer text\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2024-12-10T14:18:15.636Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "A Quiz about Test your knowledge on the world. by admin",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"question\", \"object\": \"What is the capital city of Australia?\"}}, {\"added\": {\"name\": \"question\", \"object\": \"Which city is the capital of Canada?\"}}, {\"added\": {\"name\": \"question\", \"object\": \"Which city is the capital of Brazil?\"}}, {\"added\": {\"name\": \"question\", \"object\": \"Which city is the capital of Japan?\"}}, {\"added\": {\"name\": \"question\", \"object\": \"Which city is the capital of France?\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2024-12-10T14:18:27.983Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "A Quiz about Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quam augue, consequat nec leo at, dignissim gravida nisl. Maecenas rhoncus id massa vitae vestibulum. Duis vel dolor diam. ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2024-12-10T14:20:30.801Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "7",
+    "object_repr": "Which city is the capital of France?",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"answer\", \"object\": \"Paris Correct: True\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"Nice Correct: False\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"Lyon Correct: False\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"Marseille Correct: False\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2024-12-10T14:21:33.878Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "6",
+    "object_repr": "Which city is the capital of Japan?",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"answer\", \"object\": \"Kyoto Correct: False\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"Tokyo Correct: True\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"Osaka Correct: False\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"Hiroshima Correct: False\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2024-12-10T14:23:31.536Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "5",
+    "object_repr": "Which city is the capital of Brazil?",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"answer\", \"object\": \"Salvador Correct: False\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"Bras\\u00edlia Correct: True\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"Rio de Janeiro Correct: False\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"S\\u00e3o Paulo Correct: False\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2024-12-10T14:24:53.053Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "4",
+    "object_repr": "Which city is the capital of Canada?",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"answer\", \"object\": \"Vancouver Correct: False\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"Toronto Correct: False\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"Montreal Correct: False\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"Ottawa Correct: True\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2024-12-10T14:26:10.334Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "3",
+    "object_repr": "What is the capital city of Australia?",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"answer\", \"object\": \"Sydney Correct: False\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"Melbourne Correct: False\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"Canberra Correct: True\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"Perth Correct: False\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2024-12-10T14:28:30.052Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "The Fundamentals of Proper Nutrition: A Path to Health and Wellness by admin",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2024-12-10T14:30:18.035Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "The Importance of Exercise: Why Staying Active Matters by admin",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2024-12-10T14:30:25.916Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Lorem Ipsum 2 by admin",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2024-12-10T14:31:40.394Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Lorem Ipsum by admin",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2024-12-10T14:31:55.294Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "The Importance of Exercise: Why Staying Active Matters by admin",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2024-12-10T14:45:34.795Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "A Quiz about Test your knowledge on the world of sports by admin",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"question\", \"object\": \"Which country has won the most FIFA World Cup titles in men's soccer?\"}}, {\"added\": {\"name\": \"question\", \"object\": \"Who holds the record for the most Grand Slam titles in men's tennis as of 2024?\"}}, {\"added\": {\"name\": \"question\", \"object\": \"In which sport would you perform a \\\"slam dunk\\\"?\"}}, {\"added\": {\"name\": \"question\", \"object\": \"Which country hosted the Summer Olympics in 2016?\"}}, {\"added\": {\"name\": \"question\", \"object\": \"What is the maximum score a gymnast can achieve in a single routine under the old scoring system?\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2024-12-10T14:46:53.143Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "8",
+    "object_repr": "Which country has won the most FIFA World Cup titles in men's soccer?",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"answer\", \"object\": \"Germany Correct: False\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"Brazil Correct: True\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"Argentina Correct: False\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"Italy Correct: False\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2024-12-10T14:48:04.709Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "9",
+    "object_repr": "Who holds the record for the most Grand Slam titles in men's tennis as of 2024?",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"answer\", \"object\": \"Roger Federer Correct: False\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"Rafael Nadal Correct: False\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"Novak Djokovic Correct: True\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"Pete Sampras Correct: False\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2024-12-10T14:49:07.576Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "10",
+    "object_repr": "In which sport would you perform a \"slam dunk\"?",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"answer\", \"object\": \"Tennis Correct: False\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"Volleyball Correct: False\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"Basketball Correct: True\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"Baseball Correct: False\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2024-12-10T14:50:01.608Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "11",
+    "object_repr": "Which country hosted the Summer Olympics in 2016?",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"answer\", \"object\": \"China Correct: False\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"Brazil Correct: True\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"Japan Correct: False\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"Greece Correct: False\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2024-12-10T14:51:52.282Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "12",
+    "object_repr": "What is the maximum score a gymnast can achieve in a single routine under the old scoring system?",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"answer\", \"object\": \"9.5 Correct: False\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"10.0 Correct: True\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"8.5 Correct: False\"}}, {\"added\": {\"name\": \"answer\", \"object\": \"9.0 Correct: False\"}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 7,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 7,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 7,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 7,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 8,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 8,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 8,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 8,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add quiz",
+    "content_type": 9,
+    "codename": "add_quiz"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change quiz",
+    "content_type": 9,
+    "codename": "change_quiz"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete quiz",
+    "content_type": 9,
+    "codename": "delete_quiz"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view quiz",
+    "content_type": 9,
+    "codename": "view_quiz"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add answer",
+    "content_type": 10,
+    "codename": "add_answer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change answer",
+    "content_type": 10,
+    "codename": "change_answer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete answer",
+    "content_type": 10,
+    "codename": "delete_answer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view answer",
+    "content_type": 10,
+    "codename": "view_answer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add quiz result",
+    "content_type": 11,
+    "codename": "add_quizresult"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change quiz result",
+    "content_type": 11,
+    "codename": "change_quizresult"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete quiz result",
+    "content_type": 11,
+    "codename": "delete_quizresult"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view quiz result",
+    "content_type": 11,
+    "codename": "view_quizresult"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add question",
+    "content_type": 12,
+    "codename": "add_question"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change question",
+    "content_type": 12,
+    "codename": "change_question"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete question",
+    "content_type": 12,
+    "codename": "delete_question"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view question",
+    "content_type": 12,
+    "codename": "view_question"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add lottery",
+    "content_type": 13,
+    "codename": "add_lottery"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change lottery",
+    "content_type": 13,
+    "codename": "change_lottery"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete lottery",
+    "content_type": 13,
+    "codename": "delete_lottery"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view lottery",
+    "content_type": 13,
+    "codename": "view_lottery"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$4iykR89VnVrtCD4PFHrDMH$JuV/omTEEtEER1C/UkOx3bv9zreEWBkx3L8G9hc2fBA=",
+    "last_login": "2024-12-10T14:16:36.051Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@site.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-11-05T11:35:10.300Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "main",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "main",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "main",
+    "model": "quiz"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "main",
+    "model": "answer"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "main",
+    "model": "quizresult"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "main",
+    "model": "question"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "main",
+    "model": "lottery"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "2p2b4augxlkcbb030bgf3hxmo1mcqsg9",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAYKAwu3fcMZBhQqoYmpV0Z765NutDtf-_9l4i0rTVuvSxxyuIstDj9bon4UdoO8p3abZY8t3WZktwVedAuxzmX5-Vw_w4q9fqtFQDmxNYpxGBQ2etAQN6CMQ4o5YysFKEL3mhWKQxAoB1j8MwWNIr3B7bJNqY:1tL12S:BKJjN82v5OTy9hi9lx_jM9ybwZA-xDWA1UZyFV8HM2U",
+    "expire_date": "2024-12-24T14:16:36.067Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "juel9ji8pz76nzhi2vds512ejnd0k5z9",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAYKAwu3fcMZBhQqoYmpV0Z765NutDtf-_9l4i0rTVuvSxxyuIstDj9bon4UdoO8p3abZY8t3WZktwVedAuxzmX5-Vw_w4q9fqtFQDmxNYpxGBQ2etAQN6CMQ4o5YysFKEL3mhWKQxAoB1j8MwWNIr3B7bJNqY:1tE4Zn:hsUVrZKpvKqGK3wsOUaN8Y75hzwGU8iz6ITSERjkAC0",
+    "expire_date": "2024-12-05T10:38:19.014Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "w0pqxz9cfnfv921870fvw26c22q0b8fd",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAYKAwu3fcMZBhQqoYmpV0Z765NutDtf-_9l4i0rTVuvSxxyuIstDj9bon4UdoO8p3abZY8t3WZktwVedAuxzmX5-Vw_w4q9fqtFQDmxNYpxGBQ2etAQN6CMQ4o5YysFKEL3mhWKQxAoB1j8MwWNIr3B7bJNqY:1t8Hqq:1VXKAxZre1d0pwMkjs8aJfRQRyhYwxNtp4crk4r-8cY",
+    "expire_date": "2024-11-19T11:36:00.269Z"
+  }
+},
+{
+  "model": "main.post",
+  "pk": 3,
+  "fields": {
+    "title": "The Fundamentals of Proper Nutrition: A Path to Health and Wellness",
+    "slug": "the-fundamentals-of-proper-nutrition-a-path-to-health-and-wellness",
+    "body": "In today’s fast-paced world, maintaining proper nutrition is essential for both short- and long-term health. Good nutrition provides the energy we need, supports mental and physical well-being, and reduces the risk of chronic diseases. Whether you're aiming to boost your energy, improve your mood, or prevent health issues, understanding the basics of proper nutrition can make a significant difference.\r\nWhat Is Proper Nutrition?\r\n\r\nProper nutrition means getting the right amount of nutrients—vitamins, minerals, carbohydrates, fats, proteins, and water—to maintain optimal health. It’s not about deprivation or crash diets, but rather a balanced approach to eating.\r\n\r\nA well-rounded diet should include:\r\n\r\n    Carbohydrates: They are the body's primary energy source. Choose complex carbs like whole grains, vegetables, and legumes, which digest more slowly and keep your blood sugar stable.\r\n\r\n    Proteins: Essential for building and repairing tissues, protein also helps with immune function and hormone production. Incorporate lean proteins like poultry, fish, tofu, and beans.\r\n\r\n    Fats: Healthy fats are crucial for brain function, energy, and vitamin absorption. Focus on unsaturated fats found in olive oil, avocados, and nuts, while limiting trans and saturated fats.\r\n\r\n    Vitamins and Minerals: These micronutrients support vital processes, from bone strength to heart health. Prioritize foods rich in vitamins and minerals like fruits, vegetables, nuts, seeds, and dairy.\r\n\r\n    Fiber: Found in plant-based foods, fiber aids digestion, controls blood sugar, and supports heart health. Increase intake through vegetables, fruits, whole grains, and legumes.\r\n\r\n    Hydration: Water is often overlooked but is critical for every bodily function, from digestion to temperature regulation. Aim for at least 8 cups a day, and more if you're active.\r\n\r\nThe Benefits of Proper Nutrition\r\n\r\n    Boosts Energy: Eating the right balance of macronutrients ensures a steady supply of energy throughout the day. Complex carbs fuel the brain and muscles, while proteins and fats sustain energy for longer periods.\r\n\r\n    Supports Mental Health: Certain nutrients, like omega-3 fatty acids and B vitamins, are essential for brain health and have been linked to reducing depression and anxiety.\r\n\r\n    Improves Immune Function: A diet rich in fruits, vegetables, and lean proteins helps strengthen the immune system, making it easier for your body to fight off infections and illnesses.\r\n\r\n    Maintains a Healthy Weight: Balanced nutrition helps manage weight by providing the right amount of calories and nutrients. When combined with regular physical activity, it can prevent weight gain and promote healthy fat loss.\r\n\r\n    Prevents Chronic Diseases: Proper nutrition can reduce the risk of conditions like heart disease, diabetes, and some cancers. High-fiber diets help regulate cholesterol, while foods rich in antioxidants combat inflammation.\r\n\r\nHow to Achieve Proper Nutrition\r\n\r\n    Follow a Balanced Plate: Fill half your plate with vegetables and fruits, a quarter with whole grains, and the remaining quarter with lean proteins. This simple guideline helps you achieve variety and balance in every meal.\r\n\r\n    Control Portions: Portion control prevents overeating and ensures you're not consuming excess calories. Use smaller plates, eat slowly, and pay attention to hunger cues.\r\n\r\n    Plan Your Meals: Meal planning helps you stay on track with proper nutrition and avoid unhealthy choices. Prepare meals in advance and choose nutrient-dense snacks like fruits, nuts, and yogurt.\r\n\r\n    Limit Processed Foods: Processed foods often contain high amounts of sugar, sodium, and unhealthy fats. Opt for whole, natural foods that provide more nutrients and fewer empty calories.\r\n\r\n    Read Food Labels: Understanding nutrition labels can help you make informed decisions about the foods you eat. Pay attention to serving sizes, ingredients, and the percentage of daily values for key nutrients.\r\n\r\nConclusion\r\n\r\nProper nutrition is not a one-size-fits-all approach but rather a lifestyle that supports your health and well-being. By eating a balanced variety of whole foods and staying hydrated, you’ll not only feel better but also reduce the risk of long-term health issues. Remember, small changes in your diet can lead to significant improvements in your overall health.",
+    "author": 1,
+    "created_at": "2024-12-10T14:28:30.044Z",
+    "updated_at": "2024-12-10T14:28:30.044Z",
+    "publish": "2024-12-10T14:27:15Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "main.post",
+  "pk": 4,
+  "fields": {
+    "title": "The Importance of Exercise: Why Staying Active Matters",
+    "slug": "the-importance-of-exercise-why-staying-active-matters",
+    "body": "Exercise is one of the most powerful tools for maintaining and improving overall health. Regular physical activity benefits both your body and mind, and it doesn’t require extreme routines or lengthy workouts. Whether you’re walking, running, swimming, or doing strength training, staying active can significantly impact your well-being.\r\nKey Benefits of Exercise\r\n\r\n    Boosts Physical Health: Exercise strengthens muscles, improves cardiovascular health, and helps manage weight. It can also reduce the risk of chronic diseases such as heart disease, diabetes, and certain cancers.\r\n\r\n    Enhances Mental Well-Being: Physical activity releases endorphins, which improve mood and reduce stress, anxiety, and symptoms of depression. Regular exercise also promotes better sleep and increases cognitive function.\r\n\r\n    Increases Energy Levels: Regular movement improves endurance and strengthens the heart, making daily tasks easier to perform. It also boosts overall energy levels throughout the day.\r\n\r\n    Promotes Longevity: Exercise helps maintain a healthy weight, supports the immune system, and reduces inflammation, all of which can lead to a longer, healthier life.\r\n\r\nGetting Started\r\n\r\nYou don’t need to spend hours at the gym to reap the benefits. Start with activities you enjoy, such as brisk walking, cycling, or yoga. Aim for at least 150 minutes of moderate-intensity exercise per week, or break it down into smaller, manageable sessions.\r\n\r\nRemember, consistency is key. Make physical activity a regular part of your routine, and you'll soon feel the positive effects on both your body and mind.\r\nIs this conversation helpful so far?",
+    "author": 1,
+    "created_at": "2024-12-10T14:30:18.029Z",
+    "updated_at": "2024-12-10T14:31:55.284Z",
+    "publish": "2024-12-10T14:29:13Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "main.comment",
+  "pk": 2,
+  "fields": {
+    "post": 3,
+    "name": "Thabo Sithole",
+    "email": "ca52km7x5@mozmail.com",
+    "body": "Great overview of how proper nutrition supports overall health! It's amazing how small changes in our diet can make such a big impact on energy levels and well-being",
+    "created_at": "2024-12-10T14:31:15.411Z",
+    "updated_at": "2024-12-10T14:31:15.411Z",
+    "active": true
+  }
+},
+{
+  "model": "main.quiz",
+  "pk": 2,
+  "fields": {
+    "title": "Capital Cities of the World",
+    "description": "Test your knowledge on the world.",
+    "author": 1,
+    "created_at": "2024-12-10T14:18:15.622Z",
+    "updated_at": "2024-12-10T14:18:15.622Z",
+    "active": true
+  }
+},
+{
+  "model": "main.quiz",
+  "pk": 3,
+  "fields": {
+    "title": "Sporting Activities of the world",
+    "description": "Test your knowledge on the world of sports",
+    "author": 1,
+    "created_at": "2024-12-10T14:45:34.784Z",
+    "updated_at": "2024-12-10T14:45:34.784Z",
+    "active": true
+  }
+},
+{
+  "model": "main.question",
+  "pk": 3,
+  "fields": {
+    "quiz": 2,
+    "question_text": "What is the capital city of Australia?"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 4,
+  "fields": {
+    "quiz": 2,
+    "question_text": "Which city is the capital of Canada?"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 5,
+  "fields": {
+    "quiz": 2,
+    "question_text": "Which city is the capital of Brazil?"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 6,
+  "fields": {
+    "quiz": 2,
+    "question_text": "Which city is the capital of Japan?"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 7,
+  "fields": {
+    "quiz": 2,
+    "question_text": "Which city is the capital of France?"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 8,
+  "fields": {
+    "quiz": 3,
+    "question_text": "Which country has won the most FIFA World Cup titles in men's soccer?"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 9,
+  "fields": {
+    "quiz": 3,
+    "question_text": "Who holds the record for the most Grand Slam titles in men's tennis as of 2024?"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 10,
+  "fields": {
+    "quiz": 3,
+    "question_text": "In which sport would you perform a \"slam dunk\"?"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 11,
+  "fields": {
+    "quiz": 3,
+    "question_text": "Which country hosted the Summer Olympics in 2016?"
+  }
+},
+{
+  "model": "main.question",
+  "pk": 12,
+  "fields": {
+    "quiz": 3,
+    "question_text": "What is the maximum score a gymnast can achieve in a single routine under the old scoring system?"
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 5,
+  "fields": {
+    "question": 7,
+    "answer_text": "Paris",
+    "is_correct": true
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 6,
+  "fields": {
+    "question": 7,
+    "answer_text": "Nice",
+    "is_correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 7,
+  "fields": {
+    "question": 7,
+    "answer_text": "Lyon",
+    "is_correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 8,
+  "fields": {
+    "question": 7,
+    "answer_text": "Marseille",
+    "is_correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 9,
+  "fields": {
+    "question": 6,
+    "answer_text": "Kyoto",
+    "is_correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 10,
+  "fields": {
+    "question": 6,
+    "answer_text": "Tokyo",
+    "is_correct": true
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 11,
+  "fields": {
+    "question": 6,
+    "answer_text": "Osaka",
+    "is_correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 12,
+  "fields": {
+    "question": 6,
+    "answer_text": "Hiroshima",
+    "is_correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 13,
+  "fields": {
+    "question": 5,
+    "answer_text": "Salvador",
+    "is_correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 14,
+  "fields": {
+    "question": 5,
+    "answer_text": "Brasília",
+    "is_correct": true
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 15,
+  "fields": {
+    "question": 5,
+    "answer_text": "Rio de Janeiro",
+    "is_correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 16,
+  "fields": {
+    "question": 5,
+    "answer_text": "São Paulo",
+    "is_correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 17,
+  "fields": {
+    "question": 4,
+    "answer_text": "Vancouver",
+    "is_correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 18,
+  "fields": {
+    "question": 4,
+    "answer_text": "Toronto",
+    "is_correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 19,
+  "fields": {
+    "question": 4,
+    "answer_text": "Montreal",
+    "is_correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 20,
+  "fields": {
+    "question": 4,
+    "answer_text": "Ottawa",
+    "is_correct": true
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 21,
+  "fields": {
+    "question": 3,
+    "answer_text": "Sydney",
+    "is_correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 22,
+  "fields": {
+    "question": 3,
+    "answer_text": "Melbourne",
+    "is_correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 23,
+  "fields": {
+    "question": 3,
+    "answer_text": "Canberra",
+    "is_correct": true
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 24,
+  "fields": {
+    "question": 3,
+    "answer_text": "Perth",
+    "is_correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 25,
+  "fields": {
+    "question": 8,
+    "answer_text": "Germany",
+    "is_correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 26,
+  "fields": {
+    "question": 8,
+    "answer_text": "Brazil",
+    "is_correct": true
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 27,
+  "fields": {
+    "question": 8,
+    "answer_text": "Argentina",
+    "is_correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 28,
+  "fields": {
+    "question": 8,
+    "answer_text": "Italy",
+    "is_correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 29,
+  "fields": {
+    "question": 9,
+    "answer_text": "Roger Federer",
+    "is_correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 30,
+  "fields": {
+    "question": 9,
+    "answer_text": "Rafael Nadal",
+    "is_correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 31,
+  "fields": {
+    "question": 9,
+    "answer_text": "Novak Djokovic",
+    "is_correct": true
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 32,
+  "fields": {
+    "question": 9,
+    "answer_text": "Pete Sampras",
+    "is_correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 33,
+  "fields": {
+    "question": 10,
+    "answer_text": "Tennis",
+    "is_correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 34,
+  "fields": {
+    "question": 10,
+    "answer_text": "Volleyball",
+    "is_correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 35,
+  "fields": {
+    "question": 10,
+    "answer_text": "Basketball",
+    "is_correct": true
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 36,
+  "fields": {
+    "question": 10,
+    "answer_text": "Baseball",
+    "is_correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 37,
+  "fields": {
+    "question": 11,
+    "answer_text": "China",
+    "is_correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 38,
+  "fields": {
+    "question": 11,
+    "answer_text": "Brazil",
+    "is_correct": true
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 39,
+  "fields": {
+    "question": 11,
+    "answer_text": "Japan",
+    "is_correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 40,
+  "fields": {
+    "question": 11,
+    "answer_text": "Greece",
+    "is_correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 41,
+  "fields": {
+    "question": 12,
+    "answer_text": "9.5",
+    "is_correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 42,
+  "fields": {
+    "question": 12,
+    "answer_text": "10.0",
+    "is_correct": true
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 43,
+  "fields": {
+    "question": 12,
+    "answer_text": "8.5",
+    "is_correct": false
+  }
+},
+{
+  "model": "main.answer",
+  "pk": 44,
+  "fields": {
+    "question": 12,
+    "answer_text": "9.0",
+    "is_correct": false
+  }
+},
+{
+  "model": "main.lottery",
+  "pk": 1,
+  "fields": {
+    "title": "apple",
+    "number": 282927,
+    "description": "Enter what it means"
+  }
+},
+{
+  "model": "main.lottery",
+  "pk": 2,
+  "fields": {
+    "title": "BAnana",
+    "number": 11,
+    "description": "Enter what it means"
+  }
+}
+]

@@ -13,8 +13,8 @@
                             </h4>
                             <div class="card-subtitle">
                                 <span>
-                                   <i class="fa-solid fa-calendar-days"></i> 
-                                {{ p.publish|date }} 
+                                   <i class="fa-solid fa-calendar-days"></i>
+                                {{ p.publish|date }}
                                 </span><br>
                                 <span>
                                     <i class="fa-solid fa-user"></i>
@@ -22,7 +22,7 @@
                                 </span>
                             </div>
                             <p class="card-text">{{ p.body|truncatewords:20 }}</p>
-                            
+
                             <small class="icon-link">
                                 <i class="fa-solid fa-comment"></i>
                                 Comments: {{ p.comment_count }}
